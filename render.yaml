@@ -1,0 +1,16 @@
+# Render deployment configuration for backend
+# This file is used by Render to automatically deploy your backend
+
+# Build settings:
+# - Root Directory: backend
+# - Build Command: npm install
+# - Start Command: npm start
+
+# Environment Variables to set in Render Dashboard:
+# - MONGODB_URI=your_mongodb_connection_string
+# - JWT_SECRET=your_jwt_secret
+# - NODE_ENV=production
+# - FIREBASE_PROJECT_ID=your_firebase_project_id
+
+# Health Check Path: /health
+# Auto-Deploy: Yes (when connected to Git)

@@ -1,0 +1,36 @@
+{
+  "name": "web-app-template",
+  "version": "1.0.0",
+  "description": "Full-stack web application template with Firebase Auth, MongoDB, and deployment configs",
+  "main": "backend/server.js",
+  "scripts": {
+    "setup": "./setup.sh",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "test": "npm run test:backend && npm run test:frontend",
+    "test:backend": "cd backend && npm test",
+    "test:frontend": "cd frontend && npm test -- --watchAll=false",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "react",
+    "node",
+    "firebase",
+    "mongodb",
+    "fullstack",
+    "template",
+    "vercel",
+    "render"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
