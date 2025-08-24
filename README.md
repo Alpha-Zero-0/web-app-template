@@ -1,5 +1,10 @@
 # Web App Template
 
+[![GitHub stars](https://img.shields.io/github/stars/Alpha-Zero-0/web-app-template?style=flat-square)](https://github.com/Alpha-Zero-0/web-app-template/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Alpha-Zero-0/web-app-template?style=flat-square)](https://github.com/Alpha-Zero-0/web-app-template/network)
+[![GitHub issues](https://img.shields.io/github/issues/Alpha-Zero-0/web-app-template?style=flat-square)](https://github.com/Alpha-Zero-0/web-app-template/issues)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+
 A full-stack web application template with Firebase authentication, MongoDB database, and deployment configurations for Vercel (frontend) and Render (backend).
 
 ## 🏗️ Project Structure
@@ -36,7 +41,7 @@ Before you begin, ensure you have:
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/Alpha-Zero-0/web-app-template.git
 cd web-app-template
 
 # Run the setup script
@@ -48,7 +53,7 @@ chmod +x setup.sh
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/Alpha-Zero-0/web-app-template.git
 cd web-app-template
 
 # Install all dependencies
@@ -63,7 +68,7 @@ npm run install:all
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/Alpha-Zero-0/web-app-template.git
 cd web-app-template
 
 # Configure environment variables in docker-compose.yml
